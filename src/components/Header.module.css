@@ -1,0 +1,14 @@
+.header {
+  height: 20rem;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--gray-700)
+}
+
+.header img {
+  height: 4.8rem;
+}

@@ -1,0 +1,26 @@
+.empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+
+  padding: 6.4rem 0;
+
+  border-radius: 0.8rem;
+  border-top: 1px solid var(--gray-400)
+}
+
+.empty p {
+  display: flex;
+  flex-direction: column;
+
+  color: var(--gray-300);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.empty p span {
+  font-weight: 700;
+}
